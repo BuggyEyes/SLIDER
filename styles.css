@@ -1,0 +1,46 @@
+.image {
+    background-image: url("https://s1.stc.all.kpcdn.net/putevoditel/projectid_103889/images/tild3463-3139-4630-b563-646166616434__20180225_gaf_uw8_101.jpg");
+    background-size: cover;
+    width: 300px;
+    height: 200px;
+}
+
+.img_links {
+    display: flex;
+    margin: 10px;
+    width: 300px;
+    align-content: center;
+    justify-content: space-around;
+}
+
+.img {
+    margin: 10px;
+}
+
+.text {
+    color: red;
+    background-color: darkorange;
+    width: 100px;
+    align-content: center;
+    text-align: center;
+}
+.arrow-prev {
+    color: red;
+    margin-left: 10px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-around;
+    width: 300px;
+    height: 30px;
+    background-color: darkorange;
+    padding-top: 15px;
+}
+
+img:hover {
+    border: 3px solid #413f3f;
+}
+a:hover {
+    border: 3px solid grey;
+}
