@@ -1,8 +1,9 @@
 .image {
-    background-image: url("https://s1.stc.all.kpcdn.net/putevoditel/projectid_103889/images/tild3463-3139-4630-b563-646166616434__20180225_gaf_uw8_101.jpg");
+    background-image: url("SVG/image1.svg");
     background-size: cover;
-    width: 300px;
-    height: 200px;
+    width: 679px;
+    height: 482px;
+    margin-top: 52px;
 }
 
 .img_links {
@@ -24,6 +25,7 @@
     align-content: center;
     text-align: center;
 }
+
 .arrow-prev {
     color: red;
     margin-left: 10px;
@@ -32,15 +34,102 @@
 .navigation {
     display: flex;
     justify-content: space-around;
-    width: 300px;
+    width: 200px;
     height: 30px;
-    background-color: darkorange;
-    padding-top: 15px;
+    margin-top: 50px;
+    margin-left: -15px;
 }
 
 img:hover {
     border: 3px solid #413f3f;
 }
+
 a:hover {
     border: 3px solid grey;
+}
+
+body {
+    background-color: #131313;
+    width: 100%;
+}
+
+.title_line {
+    display: flex;
+    width: 253px;
+}
+
+.content {
+    margin-top: 107px;
+margin-left: 134px;
+    margin-right: 134px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.p_text {
+    width: 442px;
+    font-size: 14px;
+    line-height: 26.73px;
+    font-family: Nunito Sans,Arial,serif;
+}
+
+.line {
+    margin-top: 65px;
+}
+
+p {
+    color: white;
+    font-size: 13px;
+    line-height: 21.28px;
+    font-family: "Nunito Sans", "Arial", serif;
+}
+
+h1 {
+    color: #E3B873;
+    text-transform: uppercase;
+}
+h3 {
+    color: #E3B873;
+    text-transform: uppercase;
+    font-size: 18px;
+    line-height: 25.95px;
+    font-family: "Yeseva One","Arial",serif;
+
+}
+h4 {
+    color: white;
+    text-transform: uppercase;
+    opacity: 30%;
+    margin-right: 50px;
+    font-size: 14px;
+    line-height: 19.4px;
+    font-family: Yeseva One,Arial,serif;
+}
+.parameter {
+    width: 181px;
+}
+.parameters {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 400px;
+
+
+}
+.nav_head {
+    display: flex;
+    justify-content: start;
+}
+.right_side_content {
+    margin-top: -25px;
+}
+.left_side_content {
+    margin-top: 75px;
+    width: 40%;
+}
+.par_value {
+    color: white;
+}
+.rostov_adm {
+
 }
